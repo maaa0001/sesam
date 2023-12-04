@@ -1,9 +1,32 @@
-body {
-    background-color: #c6c6c6;
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-h1 {}
+/*************** Generelt design *********************/
 
-h2 {}
+body {
+  background-color: #c6c6c6;
+}
 
-p {}
+h1 {
+  font-family: Sen;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: San;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Roboto;
+}
