@@ -19,7 +19,12 @@ h1 {
 }
 
 h2 {
-  font-family: San;
+  font-family: Sen;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: Sen;
   text-transform: uppercase;
 }
 
