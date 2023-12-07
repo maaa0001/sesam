@@ -59,6 +59,16 @@ ul {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #7b4e35;
+}
+
 /************* footer ************/
 
 footer {
