@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overskrift {
+  font-size: 20rem;
+  margin-left: 30%;
+}
