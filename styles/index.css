@@ -5,5 +5,13 @@
 }
 
 .overskrift {
+  font-size: 2.5rem;
   text-align: center;
+  margin-top: 1rem;
+}
+
+.h2_overskrift {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
 }
