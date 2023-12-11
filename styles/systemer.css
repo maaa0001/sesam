@@ -33,12 +33,17 @@ header {
 }
 
 .stortekst {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 5rem;
-  margin-left: 34rem;
-  margin-right: 40rem;
-  padding-bottom: 5%;
 }
 
+.tekst {
+  grid-column: 2;
+}
+.img {
+  grid-column: 1;
+}
 .flex_col {
   display: flex;
   flex-direction: column;
