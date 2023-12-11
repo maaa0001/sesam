@@ -1,9 +1,9 @@
 html {
-  background-color: #ffffff;
+  background-color: white;
 }
 
 header {
-  background-color: #ffffff;
+  background-color: #eddfc4;
 }
 
 .systemer {
@@ -42,7 +42,7 @@ header {
   grid-column: 2;
 }
 .img {
-  grid-column: 1;
+  grid-column: ;
 }
 .flex_col {
   display: flex;
