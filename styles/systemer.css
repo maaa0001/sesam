@@ -26,6 +26,7 @@ header {
 .vægsystemer {
   margin-top: 3rem;
   font-weight: bold;
+  text-align: center;
 }
 
 .li text {
@@ -36,13 +37,16 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 5rem;
+  margin-left: 5rem;
 }
 
 .tekst {
   grid-column: 2;
+  padding-inline: 15% 27%;
+  line-height: 1.7rem;
 }
 .img {
-  grid-column: ;
+  grid-column: 1;
 }
 .flex_col {
   display: flex;
@@ -51,6 +55,7 @@ header {
 
 .flex_col > :last-child {
   margin-top: 1rem;
+  line-height: 1.3rem;
 }
 
 ul {
@@ -59,7 +64,7 @@ ul {
 
 footer {
   background-color: #d5c7ab;
-  margin-top: 2rem;
+  margin-top: 5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
