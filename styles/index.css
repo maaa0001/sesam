@@ -38,6 +38,7 @@
   word-spacing: 1px;
   text-align: center;
   line-height: 1.5;
+  font-size: 1.2rem;
 }
 
 .h3 {
@@ -56,16 +57,20 @@
   margin-right: 4rem;
   margin-bottom: 3.5rem;
 }
+.billede_1 {
+  z-index: 2;
+}
 
 .liste {
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  margin-bottom: 4rem;
+  margin-left: -5rem;
+  margin-right: -2rem;
+  margin-bottom: 7rem;
   word-spacing: 1px;
   text-align: center;
   line-height: 3.5;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
