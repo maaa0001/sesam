@@ -1,0 +1,86 @@
+html {
+  background-color: white;
+}
+
+header {
+  background-color: #eddfc4;
+}
+
+.systemer {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
+}
+
+.glassystemer,
+.vægsystemer {
+  margin-top: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.li text {
+  margin-left: 40px;
+}
+
+.stortekst {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.tekst {
+  grid-column: 2;
+  padding-inline: 15% 27%;
+  line-height: 1.7rem;
+}
+.img {
+  grid-column: 1;
+}
+.flex_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_col > :last-child {
+  margin-top: 1rem;
+  line-height: 1.3rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  background-color: #d5c7ab;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer_logo {
+  width: 30%;
+  margin-left: 4rem;
+}
+
+h3 {
+  font-family: Sen;
+  font-size: 1rem;
+  padding-left: 10%;
+}

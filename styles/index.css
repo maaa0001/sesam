@@ -3,8 +3,89 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  background-color: #eddfc4;
+}
 
 .overskrift {
-  font-size: 20rem;
-  margin-left: 30%;
+  font-size: 3rem;
+  font-family: Sen;
+  text-align: center;
+  margin-top: 1rem;
+  z-index: 2;
+  top: 42%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #543524;
+}
+
+.h2_overskrift {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #543524;
+}
+
+.copy,
+.p_2 {
+  font-family: "Roboto", sans-serif;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+  word-spacing: 1px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.h3 {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-top: 2.7rem;
+  margin-left: 22rem;
+}
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+  margin-top: 2rem;
+  margin-left: 20rem;
+  margin-right: 18rem;
+  margin-bottom: 2rem;
+}
+.grid_1 img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+/************* footer ************/
+
+footer {
+  background-color: #d5c7ab;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer_logo {
+  width: 30%;
+  margin-left: 4rem;
+}
+
+h3 {
+  font-family: Sen;
+  font-size: 1rem;
+  padding-left: 10%;
 }
