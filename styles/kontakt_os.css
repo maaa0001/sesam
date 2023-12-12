@@ -1,0 +1,125 @@
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 700px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin: 10px 50px 10px 50px;
+  }
+}
+
+/*** Kontaktformular ***/
+form {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #eee8db;
+  border-radius: 8px;
+}
+
+.form-felt {
+  display: grid;
+  gap: 3px;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+label,
+textarea,
+input {
+  font-family: Roboto;
+}
+.checkbox-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.checkbox-item {
+  display: inline-block;
+  margin: 10px;
+}
+
+.checkbox-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.checkbox-image {
+  display: inline;
+  max-width: 50%;
+  height: auto;
+  vertical-align: middle;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  background-color: #e7ca93;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c5ad81;
+}
+
+/*** Kontakt ***/
+.flex_col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_col > :last-child {
+  margin-top: auto;
+}
+
+.kontakt_knap {
+  display: block;
+  color: white;
+  background-color: #e7ca93;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 300px;
+  align-self: center;
+}
+
+.kontakt_knap:hover {
+  background-color: #c5ad81;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  font-size: 1.1rem;
+  margin: 20px 0 20px 0;
+}
+
+.align-middle {
+  vertical-align: middle;
+}

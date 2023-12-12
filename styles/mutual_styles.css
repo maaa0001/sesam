@@ -137,3 +137,33 @@ nav {
     font-size: 24px;
   }
 }
+
+/************* footer ************/
+
+footer {
+  background-color: #d5c7ab;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer_logo {
+  width: 30%;
+  margin-left: 4rem;
+}
+
+h3 {
+  font-family: Sen;
+  font-size: 1rem;
+  padding-left: 10%;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
