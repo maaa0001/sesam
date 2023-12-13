@@ -26,8 +26,6 @@
           <li><a href="systemer.html">Systemer</a></li>
           <li><a href="om_os.html">Om os</a></li>
           <li><a href="kontakt_os.html">Kontakt os</a></li>
-          <li><a href="glassystemer.html">Glassystemer</a></li>
-          <li><a href="vaegsystemer.html">Vægsystemer</a></li>
         </ul>
         <div class="burger">
           <div class="line"></div>
@@ -37,8 +35,124 @@
       </nav>
     </header>
     <main>
-      <h1>Sesam A/S</h1>
+      <h1>Kontakt os</h1>
+      <section class="grid_1-1">
+        <div>
+          <form name="first-form" netlify>
+            <h2>FÅ ET TILBUD PÅ DIN OPGAVE</h2>
+            <div class="form-felt">
+              <label for="navn">Navn</label>
+              <input
+                type="text"
+                id="navn"
+                name="navn"
+                autocomplete="name"
+                required
+              />
+            </div>
+            <div class="form-felt">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-felt">
+              <label for="tele">Telefon</label>
+              <input
+                type="text"
+                id="tele"
+                name="navn"
+                autocomplete="tel"
+                required
+              />
+            </div>
+
+            <div class="checkbox-container">
+              <div class="checkbox-item">
+                <img
+                  id="kontakt_img"
+                  src="images/logo_væg.svg"
+                  alt="Billede 1"
+                  class="checkbox-image"
+                />
+                <label for="checkbox1" class="checkbox-label">Vægsystem</label>
+                <input type="checkbox" id="checkbox1" />
+              </div>
+
+              <div class="checkbox-item">
+                <img
+                  id="kontakt_img"
+                  src="images/logo_glas.svg"
+                  alt="Billede 2"
+                  class="checkbox-image"
+                />
+                <label for="checkbox2" class="checkbox-label">Glassystem</label>
+                <input type="checkbox" id="checkbox2" />
+              </div>
+            </div>
+            <div class="form-felt">
+              <label>
+                <textarea
+                  name="besked"
+                  placeholder="Skriv en besked"
+                  rows="5"
+                ></textarea>
+              </label>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <div class="align-middle flex_col">
+          <h2>Få et tilbud i dag</h2>
+          <p>
+            Gennem tæt dialog og samarbejde med kunden skræddersyer vi den helt
+            rigtige løsning. <br />
+            Kvalitet og service er nøgle begreber for den måde, vi driver
+            forretning på.
+          </p>
+
+          <div class="kontakt_knap">
+            <a href="mailto:info@sesam.as">info@sesam.as</a>
+          </div>
+          <div class="kontakt_knap">
+            <a href="tel:+4543404912">43 40 49 12</a>
+          </div>
+
+          <img src="images/extra.jpg" alt="stol og skillevæg" />
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="grid_footer">
+        <div class="grid_logo_footer">
+          <div class="footer_logo">
+            <img src="images/Logo.webp" alt="Logo" />
+            <h3>SESAM A/S</h3>
+          </div>
+        </div>
+
+        <div>
+          <h2>Kontakt os</h2>
+          <ul>
+            <li>Tlf: +45 43 40 49 12</li>
+            <li>Mail: info@sesa</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Åbningstider</h2>
+          <ul>
+            <li>Mandag - torsdag: Kl. 08.00 - 15.30</li>
+            <li>Fredag: Kl. 08.00 - 13.00</li>
+          </ul>
+        </div>
+        <div>
+          <h2>SESAM A/S</h2>
+          <ul>
+            <li>Sesam Mobile Vægsystemer A/S</li>
+            <li>Greve Main 22</li>
+            <li>2670 Greve</li>
+            <li>CVR: 20992441</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

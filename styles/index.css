@@ -3,17 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  background-color: #eddfc4;
-}
 
 .overskrift {
-  font-size: 3rem;
-  font-family: Sen;
+  font-size: 7rem;
+  font-family: "Kalnia", serif;
   text-align: center;
   margin-top: 1rem;
   z-index: 2;
-  top: 42%;
+  top: 49%;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -21,18 +18,18 @@ html {
 }
 
 .h2_overskrift {
-  font-size: 1rem;
+  font-size: 2rem;
+  font-family: "Kalnia", serif;
   text-align: center;
   margin-top: 1rem;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 59%;
   transform: translate(-50%, -50%);
   color: #543524;
 }
 
-.copy,
-.p_2 {
+.copy {
   font-family: "Roboto", sans-serif;
   margin-left: 10rem;
   margin-right: 10rem;
@@ -41,29 +38,98 @@ html {
   word-spacing: 1px;
   text-align: center;
   line-height: 1.5;
+  font-size: 1.2rem;
 }
 
 .h3 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-top: 1rem;
   margin-top: 2.7rem;
-  margin-left: 22rem;
+  text-align: center;
 }
-
 .grid_1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 45px;
+  align-items: center;
+  column-gap: 2px;
   margin-top: 2rem;
-  margin-left: 20rem;
-  margin-right: 18rem;
-  margin-bottom: 2rem;
+  margin-left: 10rem;
+  margin-right: 4rem;
+  margin-bottom: 3.5rem;
 }
-.grid_1 img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
+.billede_1 {
+  z-index: 2;
+}
+
+.liste {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  margin-left: -5rem;
+  margin-right: -2rem;
+  margin-bottom: 7rem;
+  word-spacing: 1px;
+  text-align: center;
+  line-height: 3.5;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .h2_overskrift {
+    font-size: 2rem;
+    font-family: "Kalnia", serif;
+    text-align: center;
+    margin-top: 1rem;
+    position: absolute;
+    left: 50%;
+    top: 59%;
+    transform: translate(-50%, -50%);
+    color: #543524;
+  }
+
+  .copy {
+    font-family: "Roboto", sans-serif;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+    word-spacing: 1px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .h3 {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-top: 2.7rem;
+    text-align: center;
+  }
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 2px;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 4rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .liste {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 4rem;
+    word-spacing: 1px;
+    text-align: center;
+    line-height: 3.5;
+  }
 }
 /************* footer ************/
 
@@ -88,4 +154,9 @@ h3 {
   font-family: Sen;
   font-size: 1rem;
   padding-left: 10%;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
 }
