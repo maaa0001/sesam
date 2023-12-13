@@ -142,7 +142,6 @@ nav {
 
 footer {
   background-color: #d5c7ab;
-  margin-top: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -152,15 +151,27 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+@media only screen and (max-width: 800px) {
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid_footer > div {
+    margin-top: 20px;
+    margin-left: 1rem;
+  }
+}
+
 .footer_logo {
-  width: 30%;
-  margin-left: 4rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h3 {
   font-family: Sen;
-  font-size: 1rem;
-  padding-left: 10%;
+  font-size: 0.6rem;
+  padding-left: 20%;
 }
 
 ul {
