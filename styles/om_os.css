@@ -98,9 +98,20 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+@media only screen and (max-width: 800px) {
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid_footer > div {
+    margin-top: 20px;
+    margin-left: 1rem;
+  }
+}
+
 .footer_logo {
-  width: 80%;
-  margin-left: 1rem;
+  width: 50%;
+  margin-left: 6rem;
 }
 
 h3 {
@@ -126,6 +137,12 @@ h3 {
   line-height: 1.5;
   margin-bottom: 1rem;
 }
+
+.værksted_2 {
+  margin-top: 20px;
+}
+
+/************* nede er computer ************/
 
 @media screen and (min-width: 700px) {
   .om_os_h1 {
@@ -226,7 +243,7 @@ h3 {
   }
 
   .footer_logo {
-    width: 30%;
+    width: 60%;
     margin-left: 4rem;
   }
 
@@ -250,5 +267,12 @@ h3 {
   .kunder_liste {
     margin-top: 1rem;
     line-height: 1.5;
+  }
+
+  /************* video ************/
+
+  .video {
+    margin-left: 4rem;
+    margin-right: 4rem;
   }
 }
