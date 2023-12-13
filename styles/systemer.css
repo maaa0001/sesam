@@ -29,8 +29,17 @@ header {
   text-align: center;
 }
 
+.glas_liste {
+  list-style: inside;
+  font-family: unset;
+}
+
 .li text {
   margin-left: 40px;
+}
+.tekstvæg {
+  list-style: inside;
+  font-family: unset;
 }
 
 .stortekst {
@@ -74,6 +83,10 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.grid_footer > ul {
+  list-style: none;
+}
+
 .footer_logo {
   width: 30%;
   margin-left: 4rem;
@@ -85,9 +98,9 @@ h3 {
   padding-left: 10%;
 }
 
-.glas_liste {
-  text-decoration: ;
-}
+/* .glas_liste {
+  text-decoration: 
+} */
 
 /*** Kontaktformular ***/
 form {
