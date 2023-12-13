@@ -9,7 +9,7 @@ main {
   margin: 0 10px 0 10px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;

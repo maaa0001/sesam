@@ -3,7 +3,7 @@ html {
 }
 
 header {
-  background-color: #eddfc4;
+  background-color: white;
 }
 
 .systemer {
@@ -29,8 +29,17 @@ header {
   text-align: center;
 }
 
+.glas_liste {
+  list-style: inside;
+  font-family: unset;
+}
+
 .li text {
   margin-left: 40px;
+}
+.tekstvæg {
+  list-style: inside;
+  font-family: unset;
 }
 
 .stortekst {
@@ -43,7 +52,7 @@ header {
 .tekst {
   grid-column: 2;
   padding-inline: 15% 27%;
-  line-height: 1.7rem;
+  line-height: 3.7rem;
 }
 .img {
   grid-column: 1;
@@ -74,6 +83,10 @@ footer {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.grid_footer > ul {
+  list-style: none;
+}
+
 .footer_logo {
   width: 30%;
   margin-left: 4rem;
@@ -85,6 +98,72 @@ h3 {
   padding-left: 10%;
 }
 
-.glas_liste {
-  text-decoration: ;
+/* .glas_liste {
+  text-decoration: 
+} */
+
+/*** Kontaktformular ***/
+form {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #eee8db;
+  border-radius: 8px;
+}
+
+.form-felt {
+  display: grid;
+  gap: 3px;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+label,
+textarea,
+input {
+  font-family: Roboto;
+}
+.checkbox-container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.checkbox-item {
+  display: inline-block;
+  margin: 10px;
+}
+
+.checkbox-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.checkbox-image {
+  display: inline;
+  max-width: 50%;
+  height: auto;
+  vertical-align: middle;
+}
+
+textarea {
+  width: 100%;
+}
+
+button {
+  background-color: #e7ca93;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c5ad81;
 }
