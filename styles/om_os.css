@@ -1,16 +1,20 @@
 html {
-  background-color: #eddfc4;
+  background-color: #eee8db;
 }
 
 header {
-  background-color: #eddfc4;
+  background-color: #eee8db;
 }
 
+/************* om os ************/
+
 .om_os_h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   margin-top: 1rem;
 }
+
+/************* hvem er vi ************/
 
 .hvem_er_vi {
   font-size: 1rem;
@@ -20,28 +24,22 @@ header {
 
 .beskrivende_tekst {
   font-family: "Roboto", sans-serif;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   margin-top: 1rem;
   word-spacing: 1px;
   text-align: left;
-}
-
-.grid1_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin-bottom: 3rem;
 }
 
 /************* ansatte ************/
 
 .grid_1-1-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   margin-top: 2rem;
   margin-left: 4rem;
   margin-right: 4rem;
-  margin-bottom: 2rem;
 }
 
 .Torben,
@@ -75,47 +73,6 @@ a:hover {
   color: #7b4e35;
 }
 
-/************* footer ************/
-
-footer {
-  background-color: #d5c7ab;
-
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.grid_footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.footer_logo {
-  width: 30%;
-  margin-left: 4rem;
-}
-
-h3 {
-  font-family: Sen;
-  font-size: 1rem;
-  padding-left: 10%;
-}
-
-/******** andet ********/
-
-.uddrag_kunder {
-  font-size: 1rem;
-  text-align: center;
-  margin-top: 1rem;
-  background-color: #d5c7ab;
-  margin-right: 4rem;
-  border: 5px solid #c2b59b;
-}
-
-.kunder_liste {
-  margin-top: 2rem;
-  line-height: 1.5;
-}
-
 .tekst1 {
   margin-bottom: 1rem;
 }
@@ -126,4 +83,172 @@ h3 {
 
 p {
   line-height: 1.5;
+}
+
+/************* footer ************/
+
+footer {
+  background-color: #d5c7ab;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer_logo {
+  width: 80%;
+  margin-left: 1rem;
+}
+
+h3 {
+  font-family: Sen;
+  font-size: 0.6rem;
+  padding-left: 20%;
+}
+
+/******** uddrag af kunder ********/
+
+.uddrag_kunder {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: #e8dec8;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  border: 5px solid #d5ccb7;
+}
+
+.kunder_liste {
+  margin-top: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 700px) {
+  .om_os_h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  /************* hvem er vi ************/
+
+  .hvem_er_vi {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .beskrivende_tekst {
+    font-family: "Roboto", sans-serif;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 1rem;
+    word-spacing: 1px;
+    text-align: left;
+  }
+
+  .grid1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /************* ansatte ************/
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .Torben,
+  .Carsten,
+  .Martin {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex_col > :last-child {
+    margin-top: 1rem;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+  }
+
+  a:hover {
+    color: #7b4e35;
+  }
+
+  .tekst1 {
+    margin-bottom: 1rem;
+  }
+
+  .tekst2 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  /************* footer ************/
+
+  footer {
+    background-color: #d5c7ab;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .footer_logo {
+    width: 30%;
+    margin-left: 4rem;
+  }
+
+  h3 {
+    font-family: Sen;
+    font-size: 1rem;
+    padding-left: 10%;
+  }
+
+  /******** uddrag af kunder ********/
+
+  .uddrag_kunder {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: #e8dec8;
+    margin-right: 4rem;
+    border: 5px solid #d5ccb7;
+  }
+
+  .kunder_liste {
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
 }

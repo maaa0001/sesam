@@ -19,7 +19,7 @@ header {
   margin-top: 4rem;
   margin-left: 4rem;
   margin-right: 4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .glassystemer,
@@ -59,7 +59,7 @@ header {
 }
 
 ul {
-  list-style-type: none;
+  font-family: "Roboto", sans-serif;
 }
 
 footer {
@@ -83,4 +83,8 @@ h3 {
   font-family: Sen;
   font-size: 1rem;
   padding-left: 10%;
+}
+
+.glas_liste {
+  text-decoration: ;
 }
