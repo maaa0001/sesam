@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Glassystemer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1227 913.49">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-2 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="415.99 257.39 40.45 315.17 40.45 176.5 410.21 89.84 415.99 257.39"/>
+  <polygon class="cls-1" points="618.21 228.5 415.99 257.39 410.21 89.84 612.43 43.62 618.21 228.5"/>
+  <polygon class="cls-1" points="214 452.25 40.45 453.83 40 315.25 214 290.25 214 452.25"/>
+  <polygon class="cls-1" points="618.21 442.27 214 452.25 213.77 290.4 618 235.25 618.21 442.27"/>
+  <polygon class="cls-1" points="415.99 632.94 40.45 586.71 40 456.25 415.99 453.83 415.99 632.94"/>
+  <polygon class="cls-1" points="618.21 661.82 415.99 632.94 415.99 453.83 618.21 453.83 618.21 661.82"/>
+  <polygon class="cls-1" points="213.77 777.38 40.45 741.63 42 589.25 213.77 610.55 213.77 777.38"/>
+  <polygon class="cls-1" points="618.21 864.04 213.77 775.88 214 610.25 618.21 667.6 618.21 864.04"/>
+  <g>
+    <polygon class="cls-3" points="1198.11 168.59 1198.11 751.43 621.1 886.28 619.25 886.75 617.46 886.34 28.89 751.43 28.89 168.59 617.46 27.15 619.25 26.75 621.1 27.15 1198.11 168.59"/>
+    <polygon class="cls-2" points="652.87 846.71 935.98 783.15 935.98 130.28 642.91 61.28 652.87 846.71"/>
+    <polygon class="cls-2" points="959.09 777.38 1172.86 731.16 1172.86 188.06 960.33 136.58 959.09 777.38"/>
+    <rect class="cls-3" x="698.81" y="92.92" width="14.15" height="93.7" rx="1" ry="1" transform="translate(305.58 -458.2) rotate(45)"/>
+    <rect class="cls-3" x="731.17" y="116.83" width="14.15" height="136.58" rx="1" ry="1" transform="translate(347.13 -467.8) rotate(45)"/>
+    <rect class="cls-3" x="1106.69" y="639.06" width="14.92" height="93.7" rx="1" ry="1" transform="translate(1416.97 1958.74) rotate(-135)"/>
+    <rect class="cls-3" x="1072.22" y="570.16" width="14.92" height="136.58" rx="1" ry="1" transform="translate(1391.68 1853.34) rotate(-135)"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="377.43" cy="146.84" r="8.67"/>
+    <circle class="cls-3" cx="377.43" cy="204.62" r="8.67"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="573.87" cy="106.4" r="8.67"/>
+    <circle class="cls-3" cx="573.87" cy="164.17" r="8.67"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="573.87" cy="308.61" r="8.67"/>
+    <circle class="cls-3" cx="573.87" cy="366.39" r="8.67"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="573.87" cy="522.39" r="8.67"/>
+    <circle class="cls-3" cx="573.87" cy="580.16" r="8.67"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="573.87" cy="730.38" r="8.67"/>
+    <circle class="cls-3" cx="573.87" cy="788.16" r="8.67"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="371.66" cy="510.83" r="8.67"/>
+    <circle class="cls-3" cx="371.66" cy="568.61" r="8.67"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="175.22" cy="343.28" r="8.67"/>
+    <circle class="cls-3" cx="175.22" cy="401.05" r="8.67"/>
+  </g>
+  <g>
+    <circle class="cls-3" cx="175.22" cy="661.05" r="8.67"/>
+    <circle class="cls-3" cx="175.22" cy="718.82" r="8.67"/>
+  </g>
+  <g>
+    <polygon class="cls-2" points="572.13 845.33 289.02 781.77 289.02 128.9 582.09 59.9 572.13 845.33"/>
+    <polygon class="cls-2" points="265.91 776 52.14 729.77 52.14 186.68 264.67 135.2 265.91 776"/>
+    <rect class="cls-3" x="512.04" y="91.54" width="14.15" height="93.7" rx="1" ry="1" transform="translate(984.04 -130.82) rotate(135)"/>
+    <rect class="cls-3" x="479.68" y="115.45" width="14.15" height="136.58" rx="1" ry="1" transform="translate(960.87 -30.52) rotate(135)"/>
+    <rect class="cls-3" x="103.39" y="637.68" width="14.92" height="93.7" rx="1" ry="1" transform="translate(-451.57 278.87) rotate(-45)"/>
+    <rect class="cls-3" x="137.86" y="568.77" width="14.92" height="136.58" rx="1" ry="1" transform="translate(-407.91 289.35) rotate(-45)"/>
+  </g>
+</svg>
