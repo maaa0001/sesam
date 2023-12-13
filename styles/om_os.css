@@ -34,7 +34,7 @@ header {
 
 /************* ansatte ************/
 
-.grid_1-1-1 {
+.grid_1_1_1 {
   display: grid;
   gap: 30px;
   margin-top: 2rem;
@@ -142,6 +142,11 @@ h3 {
   margin-top: 20px;
 }
 
+/************* video ************/
+.video {
+  margin-top: 1rem;
+}
+
 /************* nede er computer ************/
 
 @media screen and (min-width: 700px) {
@@ -175,7 +180,7 @@ h3 {
 
   /************* ansatte ************/
 
-  .grid_1-1-1 {
+  .grid_1_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
