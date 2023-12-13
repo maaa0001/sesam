@@ -5,6 +5,10 @@ h1 {
   margin-bottom: 2rem;
 }
 
+main {
+  margin: 0 10px 0 10px;
+}
+
 @media (min-width: 700px) {
   .grid_1-1 {
     display: grid;
@@ -117,7 +121,8 @@ a {
 
 p {
   font-size: 1.1rem;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 10px 0;
+  line-height: 30px;
 }
 
 .align-middle {
