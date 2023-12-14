@@ -10,11 +10,11 @@
   text-align: center;
   margin-top: 1rem;
   z-index: 2;
-  top: 49%;
+  top: 54%;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #7a6255;
+  color: #352822;
 }
 
 .h2_overskrift {
@@ -24,9 +24,9 @@
   margin-top: 1rem;
   position: absolute;
   left: 50%;
-  top: 59%;
+  top: 63%;
   transform: translate(-50%, -50%);
-  color: #7a6255;
+  color: #352822;
 }
 
 .copy {
