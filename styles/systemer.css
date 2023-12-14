@@ -167,3 +167,14 @@ button {
 button:hover {
   background-color: #c5ad81;
 }
+
+@media only screen and (max-width: 800px) {
+  .grid_footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid_footer > div {
+    margin-top: 20px;
+    margin-left: 1rem;
+  }
+}
